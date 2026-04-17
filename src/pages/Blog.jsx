@@ -1,4 +1,11 @@
+
+import { useEffect } from 'react';
+
 function Blog() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <main className="section">
       <h2>Spring Break 2026</h2>
