@@ -110,3 +110,15 @@ body {
   .hero h1 { font-size: 1.8rem; }
   .navbar { flex-direction: column; gap: 0.5rem; }
 }
+
+.nav-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  margin-left: 1.5rem;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.nav-btn:hover { color: #e94560; }
