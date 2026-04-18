@@ -1,4 +1,7 @@
 import { useEffect } from 'react';
+import chillpic from '../../public/images/chillpic.png';
+import gympic from '../../public/images/gympic.png';
+import studypic from '../../public/images/studypic.png';
 
 function Blog() {
   useEffect(() => {
@@ -13,7 +16,8 @@ function Blog() {
       <article className="blog-post">
         <h3>Day 1–2: Doing Absolutely Nothing (On Purpose)</h3>
         <p className="blog-date">March 22–23, 2026</p>
-<img src="images/chillpic.png" alt="Chilling at home" style={{width:'100%', borderRadius:'8px', margin:'1rem 0'}} />        <p>
+        <img src={chillpic} alt="Chilling at home" style={{width:'100%', borderRadius:'8px', margin:'1rem 0'}} />
+        <p>
           The first thing I did when spring break started was sleep in until 8 am and feel zero guilt about it.
           After a semester of deadlines, GCP labs, and ML assignments, the brain needed a full reset.
           I spent the first couple of days catching up with my friends on the P5 I'd been ignoring, eating actual meals at normal
@@ -28,7 +32,8 @@ function Blog() {
       <article className="blog-post">
         <h3>Mid-Break: Back in the Gym</h3>
         <p className="blog-date">March 24–27, 2026</p>
-<img src="images/gympic.png" alt="Back at the gym" style={{width:'100%', borderRadius:'8px', margin:'1rem 0'}} />        <p>
+        <img src={gympic} alt="Back at the gym" style={{width:'100%', borderRadius:'8px', margin:'1rem 0'}} />
+        <p>
           I got into a consistent gym routine. During the semester I'd been
           going but im always on a bit of a time crunch so usually I'm always rushing and not getting the best work outs in. Spring break gave me the chance to actually go every day
           and get into a real rhythm. Focused mostly on upper body since I don't like hitting legs because it hurts 🥀 and got some good workouts in.
@@ -44,7 +49,8 @@ function Blog() {
       <article className="blog-post">
         <h3>Last Few Days: Slow Re-Entry</h3>
         <p className="blog-date">March 28–30, 2026</p>
-<img src="images/studypic.png" alt="Winding down" style={{width:'100%', borderRadius:'8px', margin:'1rem 0'}} />        <p>
+        <img src={studypic} alt="Winding down" style={{width:'100%', borderRadius:'8px', margin:'1rem 0'}} />
+        <p>
           The end of break is always a little bittersweet. I spent the last few days doing some light prep
           for the upcoming weeks, not full on studying but just reviewing what's coming up so I'm not surprised
           on the day coming back. Caught up with some friends, grabbed food a couple times, and tried to enjoy the
