@@ -2,7 +2,7 @@ function Home() {
   return (
     <main>
       <section className="hero">
-        <h1>Hi, I'm Alexis Ramos</h1>
+        <h1>Hi, I'm <span>Alexis Ramos</span></h1>
         <p>Software Engineer Student · Cloud & AI/ML Enthusiast · Builder</p>
         <p className="hero-sub">Cal State San Marcos</p>
       </section>
