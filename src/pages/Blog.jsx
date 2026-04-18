@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import chillpic from '../assets/images/chillpic.png';
 import gympic from '../assets/images/gympic.png';
 import studypic from '../assets/images/studypic.png';
