@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
-import chillpic from '../../public/images/chillpic.png';
-import gympic from '../../public/images/gympic.png';
-import studypic from '../../public/images/studypic.png';
+import chillpic from '../assets/chillpic.png';
+import gympic from '../assets/gympic.png';
+import studypic from '../assets/studypic.png';
 
 function Blog() {
   useEffect(() => {
