@@ -1,4 +1,3 @@
-
 import { useEffect } from 'react';
 
 function Blog() {
@@ -14,6 +13,7 @@ function Blog() {
       <article className="blog-post">
         <h3>Day 1–2: Doing Absolutely Nothing (On Purpose)</h3>
         <p className="blog-date">March 22–23, 2026</p>
+        <img src="/my-portfolio/images/chillpic.png" alt="Chilling at home" style={{width:'100%', borderRadius:'8px', margin:'1rem 0'}} />
         <p>
           The first thing I did when spring break started was sleep in until 8 am and feel zero guilt about it.
           After a semester of deadlines, GCP labs, and ML assignments, the brain needed a full reset.
@@ -29,6 +29,7 @@ function Blog() {
       <article className="blog-post">
         <h3>Mid-Break: Back in the Gym</h3>
         <p className="blog-date">March 24–27, 2026</p>
+        <img src="/my-portfolio/images/gympic.png" alt="Back at the gym" style={{width:'100%', borderRadius:'8px', margin:'1rem 0'}} />
         <p>
           I got into a consistent gym routine. During the semester I'd been
           going but im always on a bit of a time crunch so usually I'm always rushing and not getting the best work outs in. Spring break gave me the chance to actually go every day
@@ -45,6 +46,7 @@ function Blog() {
       <article className="blog-post">
         <h3>Last Few Days: Slow Re-Entry</h3>
         <p className="blog-date">March 28–30, 2026</p>
+        <img src="/my-portfolio/images/studypic.png" alt="Winding down" style={{width:'100%', borderRadius:'8px', margin:'1rem 0'}} />
         <p>
           The end of break is always a little bittersweet. I spent the last few days doing some light prep
           for the upcoming weeks, not full on studying but just reviewing what's coming up so I'm not surprised
