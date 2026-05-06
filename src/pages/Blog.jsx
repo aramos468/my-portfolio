@@ -25,7 +25,9 @@ function Blog() {
         </p>
         <p>
           I also took some time to clean up my room and organize, sounds boring, but there's
-          something genuinely satisfying about having a clean room again.
+          something genuinely satisfying about having a clean room again. Also caught up on a show I'd been
+          putting off for weeks — no spoilers but it was worth the wait. Sometimes the best thing you can do
+          is just sit on the couch and do absolutely nothing productive.
         </p>
       </article>
 
@@ -43,6 +45,27 @@ function Blog() {
           actually have energy to push yourself. Came home from the gym feeling way better than I had
           any right to after a week of doing "nothing." Already planning to keep the streak going into the
           remainder of the semester.
+        </p>
+        <p>
+          Also started paying more attention to what I was eating during this stretch — not anything crazy,
+          just actually cooking instead of grabbing whatever was fast. Made a big difference in how I felt
+          after workouts. Small things add up.
+        </p>
+      </article>
+
+      <article className="blog-post">
+        <h3>Hanging Out & Touching Grass</h3>
+        <p className="blog-date">March 26–27, 2026</p>
+        <p>
+          Mid-break I linked up with some friends I hadn't seen properly since the semester started.
+          We grabbed food, drove around for a bit, and just caught up. Nothing planned, which made it
+          better. When you're always busy it's easy to let those hangouts slip — spring break was a good
+          reminder to actually make time for people.
+        </p>
+        <p>
+          We ended up getting birria tacos at this spot someone recommended and honestly it might've been
+          the highlight of the whole week. Sometimes the simplest things hit different when you've been
+          locked in studying for months. Good food, good company, no homework — that's the formula.
         </p>
       </article>
 
