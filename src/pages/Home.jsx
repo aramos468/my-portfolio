@@ -1,3 +1,5 @@
+import ticketai from '../assets/images/ticketai.png';
+
 function Home() {
   return (
     <main>
@@ -35,7 +37,7 @@ function Home() {
             title="TicketAI"
             desc="An AI-powered support call ticketing system using Ollama + LLaMA 3.1 to auto-generate issue descriptions and resolutions from call transcripts."
             tags={["Python", "FastAPI", "Ollama", "Docker"]}
-            image="/my-portfolio/images/ticketai.png"
+            image={ticketai}
           />
         </div>
       </section>
