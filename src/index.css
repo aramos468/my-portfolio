@@ -233,3 +233,16 @@ body {
   .navbar { flex-direction: column; gap: 0.75rem; padding: 1rem; }
   .nav-links a, .nav-links .nav-btn { margin-left: 1rem; }
 }
+
+.project-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #ffb400;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.project-link:hover { text-decoration: underline; }
